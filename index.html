@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio - Benjamin Ventura Torres</title>
-    <!-- Iconos de FontAwesome para redes sociales -->
+    <!-- Iconos de FontAwesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -16,7 +16,7 @@
       <div class="contenedor">
         <div class="perfil">
           <div class="contenedorFoto">
-            <img src="./imagenes/fotoperfil.jpg" alt="Benjamin Ventura Torres" class="foto" />
+            <img src="./imagenes/fotoperfil.jpeg" alt="Benjamin Ventura Torres" class="foto" />
           </div>
           <div class="profile-info">
             <h1>Benjamin Ventura Torres</h1>
@@ -70,20 +70,12 @@
     </section>
 
     <section id="contacto">
-      <div class="contenedor">
+      <div class="contenedor contacto-box">
         <h2>Contacto</h2>
-        <form onsubmit="event.preventDefault(); pop_up('Mensaje enviado correctamente');">
-          <div class="form-group">
-            <input type="text" placeholder="Nombre" required />
-          </div>
-          <div class="form-group">
-            <input type="email" placeholder="Email" required />
-          </div>
-          <div class="form-group">
-            <textarea placeholder="Mensaje" rows="5" required></textarea>
-          </div>
-          <button type="submit">Enviar Mensaje</button>
-        </form>
+        <p>¿Tienes alguna consulta o proyecto en mente? Escríbeme directamente:</p>
+        <a href="https://wa.me/51955304479" target="_blank" rel="noopener noreferrer" class="btn-whatsapp">
+          <i class="fab fa-whatsapp"></i> Chatear por WhatsApp
+        </a>
       </div>
     </section>
 
@@ -93,13 +85,14 @@
           <a href="https://github.com/73659603-cloud" target="_blank" rel="noopener noreferrer" title="GitHub">
             <i class="fab fa-github"></i>
           </a>
+          <a href="https://wa.me/51955304479" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
         </div>
         <p>
           &copy; 2026 Desarrollado por Benjamin Ventura Torres - Todos los derechos reservados
         </p>
       </div>
     </footer>
-
-    <script src="./codigo.js"></script>
   </body>
 </html>
